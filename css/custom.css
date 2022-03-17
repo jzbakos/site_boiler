@@ -42,7 +42,7 @@ body {
 #links .columns {
   padding: 30px 28px;
   font-size: 2rem;
-  border-bottom: 2px solid rgb(30, 30, 30);
+  border-bottom: 2px solid rgb(37, 37, 37);
   text-align: left;
 }
 
@@ -175,8 +175,6 @@ body {
     font-size: 6rem;
   }
 }
-
-
 
 /* CONTENT
 ------------------------------------ */
