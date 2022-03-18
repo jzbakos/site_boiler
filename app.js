@@ -15,6 +15,6 @@ function myFunction() {
     // land.style.display = "none";
     content.style.display = "none";
     footer.style.display = "none";
-    document.body.style.backgroundColor = "rgb(46, 46, 46)";
+    document.body.style.backgroundColor = "rgb(241, 241, 241)";
   }
 }

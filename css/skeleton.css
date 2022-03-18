@@ -199,7 +199,7 @@ h6 {
   font-weight: 300;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   line-height: 1.2;
   letter-spacing: -0.1rem;
 }
@@ -300,7 +300,7 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
   color: rgb(50, 50, 50);
   border-color: rgb(50, 50, 50);
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(233, 233, 233);
   outline: 0;
 }
 .button.button-primary,
@@ -338,11 +338,14 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #d1d1d1;
-  border-radius: 4px;
+  /* padding: 6px 10px; The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: rgba(0, 0, 0, 0);
+  /* border: 1px solid #d1d1d1; */
+  /* border-radius: 4px; */
+  padding: 10px 0;
+  border: none;
+  border-bottom: 3px solid rgb(116, 116, 116);
+  outline: none;
   box-shadow: none;
   box-sizing: border-box;
 }
@@ -373,8 +376,9 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33c3f0;
+  /* border: 1px solid #33c3f0; */
   outline: 0;
+  border-bottom: 3px solid #f0720d;
 }
 label,
 legend {
