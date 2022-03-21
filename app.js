@@ -18,3 +18,7 @@ function myFunction() {
     document.body.style.backgroundColor = "rgb(241, 241, 241)";
   }
 }
+
+$(".rotate").click(function () {
+  $(this).toggleClass("down");
+});
