@@ -43,6 +43,13 @@ body {
   transform: rotate(-90deg);
 }
 
+.tag {
+  text-align: center;
+  margin: 100px 0;
+  font-weight: 200;
+  color: rgb(129, 129, 129);
+}
+
 /* NAVIGATION
 ------------------------------------ */
 
@@ -252,6 +259,7 @@ body {
 
 .footer {
   background-color: white;
+  border-top: 2px solid #f0720d;
 }
 
 .footer .container {
